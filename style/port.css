@@ -43,18 +43,75 @@ nav a {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding:15px 35px;
+    padding: 15px 35px;
 
 }
+
 .header {
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
 }
-.banner{
- 
+
+.banner {
+
     margin: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
-.banner .pic{
+
+.banner .pic {
     width: 500px;
+}
+
+.banner-1 {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.banner-2 {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-3 {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+/* about  */
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    max-width: 827px;
+    margin: 130px 0;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+   
 }
