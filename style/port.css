@@ -115,3 +115,15 @@ nav a {
     font-size: 18px;
    
 }
+.about2 {
+    display: flex;
+    justify-content: space-between;
+}
+.about2{
+    align-items: center;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
